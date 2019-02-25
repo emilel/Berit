@@ -191,7 +191,13 @@ buildNumber.properties
 # End of https://www.gitignore.io/api/java,maven,eclipse,intellij
 
 # Scripts
-scripts/
+scripts/*
 
 # Mp3 files
-speech/
+speech/*
+
+# Sample script
+!scripts/ls
+
+# Sample speech
+!speech/hello_my_friend,_i_hope_your_day_is_mighty_fine.mp3

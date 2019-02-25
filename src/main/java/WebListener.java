@@ -24,7 +24,8 @@ public class WebListener {
                     "\nPort: " + port +
                     "\nExternal ip: " + getExternalIp() +
                     "\nLocal site ip: " + getLocalSiteIp() +
-                    "\nMp3Player: " + playerName);
+                    "\nMp3Player: " + playerName +
+                    "\n");
 
             while (true) {
                 Socket client = serverSocket.accept();
