@@ -1,0 +1,1 @@
+./mvnw.cmd exec:java -q -Dexec.mainClass=Main -Dexec.args="-p 8081 -m jlayer"

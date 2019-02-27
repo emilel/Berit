@@ -1,1 +1,1 @@
-mvn exec:java -q -Dexec.mainClass=Main -Dexec.args="-p 8081 -m omxplayer"
+./mvnw exec:java -q -Dexec.mainClass=Main -Dexec.args="-p 8081 -m omxplayer"
