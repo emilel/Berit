@@ -3,10 +3,10 @@ This project is intended to be running on an internet connected server. When run
 Berit is written in Java and includes a Maven wrapper which starts the application.
 
 Linux:
-Make the startup script "run" executable by standing in the root directory and executing the command: "chmod +x run". Run by executing "./run".
+Make the Maven wrapper "mvnw" and the startup script "run" executable by standing in the root directory and executing the commands "chmod +x run" and "chmod +x mvnw". Run by executing "./run".
 
 Raspberry Pi:
-Since JLayer (used to play MP3 files by default) doesn't seem to work on Raspberry pi, the program Omxplayer is instead used and is required to be installed with the command "sudo apt-get install omxplayer". Make the startup script "runpi" executable by standing in the root directory and executing the command: "chmod +x runpi". Run by executing "./runpi". In case Omxplayer doesn't work, try executing the command "sudo chmod 777 /dev/vchiq".
+Since JLayer (used to play MP3 files by default) doesn't seem to work on Raspberry pi, the program Omxplayer is instead used and is required to be installed with the command "sudo apt-get install omxplayer". Make the Maven wrapper "mvnw" and the Raspberry Pi startup script "runpi" executable by standing in the root directory and executing the commands "chmod +x runpi" and "chmod +x mvnw". Run by executing "./runpi". In case Omxplayer doesn't work, try executing the command "sudo chmod 777 /dev/vchiq".
 
 Windows:
 Run the file "runwin".
